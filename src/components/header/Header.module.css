@@ -1,0 +1,12 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menubar {
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+}
