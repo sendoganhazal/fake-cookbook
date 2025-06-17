@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import { fetchAllRecipes,fetchAllMealType } from "./utils/api-fetcher";
-import Hero from "./components/Hero";
+import Hero from "./components/hero/Hero";
 
 
 
