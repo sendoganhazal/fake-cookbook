@@ -1,0 +1,15 @@
+.panel {
+    margin: .5rem !important;
+   
+}
+.panel p {
+    text-align: center;
+    font-weight: 500;
+    color: var(--orange-500);
+}
+
+.panel > div > div {
+    border: 1px solid #e5e7eb!important;
+    border-radius: 6px!important;
+    
+}

@@ -33,13 +33,4 @@ export async function fetchAllRecipes() {
     // Hata yönetimi burada yapılabilir (örn: setError(error))
   }
 }
-export async function fetchAllMealType() {
-  try {
-    const allRecipes = await fetchRecipes();
-    console.log(allRecipes)
-    const allMealTypes = [...new Set(allRecipes.recipes.flatMap(recipe => recipe.mealType))];
-    return allMealTypes;
-  } catch (error) {
-    console.error("Error fetching data:", error);
-  }
-}
+
